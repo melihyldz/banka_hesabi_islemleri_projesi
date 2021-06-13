@@ -1,7 +1,7 @@
 # C-Projeleri
-Nesne Yönelimli Programlama
+<b>Nesne Yönelimli Programlama </b>
 
-<b> 13 / 06 / 2021 </b>
+<p><b> 13 / 06 / 2021 </b></p>
 
 <strong>MELİH YILDIZ </strong>
-<p><b> İstanbul Gelişim Üniversitesi Bilgisisayar Mühendisliği Lisans Bölümü</b></p>
+<p>
