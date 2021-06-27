@@ -48,14 +48,14 @@ public:
 	float getBalance() {
 		return _balance; 
 	}
-	//set and get functions
-	bool isNameSurname(string name_surname);
-	bool isPhoneNum(string phoneNum);
-	bool isMoney(float money);
-	void controlMyAccount();
-	bool canWithDraw();
-	void withDraw();
-	void deposit();
+	//set and get functionse
+	bool isNameSurname(string name_surname);//kayıt edilecek ismin, isim olup olmadığını kontrol ederek bool bir değer döndürür
+	bool isPhoneNum(string phoneNum);//kayıt edilecek telefon numarasının, numara olup olmadığını kontrol ederek bool bir deger döndürür
+	bool isMoney(float money);//girilen para değerinin sadece sayıdan oluşup oluşmadığını kontrol ederek bool bir değer döndürür
+	void controlMyAccount();//kişinin hesap bilgilerini ekrana çıktı olarak veren fonksiyon
+	bool canWithDraw();//kişinin hesabındaki parayı çekiceği zaman para miktarını kontrol eder ve bool bir değer dondurur
+	void withDraw();//para çekme fonksiyonu
+	void deposit();//para yatırma fonksiyonu
 	//another functions
 };
 
