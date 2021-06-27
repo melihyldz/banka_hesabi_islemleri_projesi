@@ -15,7 +15,8 @@ int main() {
 	while (askForNext == 1) {
 		cout << "-------ANASAYFA-------" << endl <<
 		"HESABIM (1)---->" << endl << "PARA ÇEKME (2)---->" 
-		<< endl << "PARA YATIRMA (3)---->" << endl;
+		<< endl << "PARA YATIRMA (3)---->" << endl;	
+		
 		cin >> key;
 		switch (key)
 		{
@@ -34,7 +35,7 @@ int main() {
 			break;
 		}
 		cout << "Çıkış ---> 0" << endl << "Anasayfa ---> 1" << endl;
-		cin >> askForNext;
+		cin >> askForNext;//kişiye işlemlerine devam edip etmeyeceği sorulur
 	}
 	
 }
